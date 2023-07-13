@@ -6,7 +6,9 @@ const clientId = 'f44a7c6a-219f-417d-9a1d-f2bafd38ad53';
 const host = '10.246.0.10:1883';
 
 // Array of topics to subscribe to
-const topics = ['MC/V1/AUT/au1/OSPMS/CB/E0017/Status_Closed','MC/V1/AUT/au1/OSPMS/GEN/E0009/Status_Plant_Remote','MC/V1/AUT/au1/OSPMS/GEN/E0009/Status_Plant_Remote','MC/V1/AUT/au1/OSPMS/CB/E0002/Status_Closed','MC/V1/AUT/au1/OSPMS/DRIVE/E0003/Status_Running_1','MC/V1/AUT/au1/OSPMS/DRIVE/E0010/Power_Consumed_KW','MC/V1/AUT/au1/OSPMS/BUS/E0008/Total_Power_KW'];
+//const topics = ['MC/V1/AUT/au1/OSPMS/CB/E0017/Status_Closed','MC/V1/AUT/au1/OSPMS/GEN/E0009/Status_Plant_Remote','MC/V1/AUT/au1/OSPMS/GEN/E0009/Status_Plant_Remote','MC/V1/AUT/au1/OSPMS/CB/E0002/Status_Closed','MC/V1/AUT/au1/OSPMS/DRIVE/E0003/Status_Running_1','MC/V1/AUT/au1/OSPMS/DRIVE/E0010/Power_Consumed_KW','MC/V1/AUT/au1/OSPMS/BUS/E0008/Total_Power_KW'];
+const topics = ['MC/V1/AUT/au1/OSPMS/CB/E0017/Status_Closed','MC/V1/AUT/au1/OSPMS/GEN/E0009/Status_Plant_Remote'];
+
 
 // Create an MQTT client instance
 
