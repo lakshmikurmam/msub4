@@ -19,7 +19,7 @@ let latestMessage = null; // Variable to store the latest MQTT message
 
 // Subscribe to the MQTT topic
 mqttClient.on('connect', () => {
-    console.log('Connected to MQTT broker');
+    console.log('Running.....REST API');
 
     mqttClient.subscribe(mqttTopic, (err) => {
         if (err) {
