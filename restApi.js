@@ -15,5 +15,5 @@ app.get('/subscribe', (req, res) => {
 
 // Start the REST API server
 app.listen(3001, () => {
-    console.log('REST API server running on port 3000');
+    console.log('REST API server running on port 3001');
 });
