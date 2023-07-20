@@ -9,8 +9,8 @@ const host = '10.246.0.10:1883';
 const mqttTopic = ['MC/V1/AUT/au1/OSPMS/CB/E0017/Status_Closed','MC/V1/AUT/au1/OSPMS/GEN/E0009/Status_Plant_Remote','MC/V1/AUT/au1/OSPMS/GEN/E0009/Status_Plant_Remote','MC/V1/AUT/au1/OSPMS/CB/E0002/Status_Closed','MC/V1/AUT/au1/OSPMS/DRIVE/E0003/Status_Running_1','MC/V1/AUT/au1/OSPMS/DRIVE/E0010/Power_Consumed_KW','MC/V1/AUT/au1/OSPMS/BUS/E0008/Total_Power_KW'];
 // Create an MQTT client
 //local test
-const mqttClient1 = mqtt.connect(Url);
-const mqttClient = mqtt.connect(`mqtt://${username}:${password}@${host}`, {
+const mqttClient = mqtt.connect(Url);
+const mqttClient1 = mqtt.connect(`mqtt://${username}:${password}@${host}`, {
 clientId,
  clean: true,
  rejectUnauthorized: false
@@ -56,7 +56,7 @@ module.exports = {
     getLatestMessage: () => latestMessage, // Function to retrieve the latest message
 };
 const express = require('express');
-const mqttSubscriber = require('./mqttSubscriber');
+//const mqttSubscriber = require('./mqttSubscriber');
 
 const app = express();
 
